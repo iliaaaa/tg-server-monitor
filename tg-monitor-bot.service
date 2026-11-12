@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=YOUR_USER
+User=kab
 WorkingDirectory=/opt/bots/tg-server-monitor
 EnvironmentFile=/opt/bots/tg-server-monitor/.env
 ExecStart=/opt/bots/tg-server-monitor/tg-monitor-bot
